@@ -1,0 +1,52 @@
+nav {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 4vw;
+}
+nav #logo h1 {
+  font-size: 35px;
+  color: darkblue;
+  font-weight: 600;
+}
+nav #search input {
+  padding: 1vw 6vw;
+  font-size: 18px;
+}
+nav #links {
+  display: flex;
+  align-items: baseline;
+}
+nav #links .tab-link {
+  margin-right: 2vw;
+}
+nav #links .tab-link .link-dropdown {
+  display: flex;
+}
+nav #links .tab-link .link-dropdown li {
+  list-style: none;
+  margin-left: 0.8vw;
+}
+nav #links .tab-link .link-dropdown li i {
+  margin-right: 0.2vw;
+}
+nav #links .tab-link .link-dropdown li:hover {
+  color: rgb(0, 179, 255);
+  transition: 0.6s;
+  cursor: pointer;
+}
+nav #links .button-container button {
+  background-color: red;
+  border: 1px solid red;
+  border-radius: 2px;
+  color: white;
+  font-weight: 600;
+  padding: 1vw 4vh;
+  font-size: 16px;
+}
+nav #links .button-container button:hover {
+  background-color: rgb(195, 7, 7);
+  border-color: rgb(195, 7, 7);
+  transition: 0.6s;
+}/*# sourceMappingURL=style.css.map */
